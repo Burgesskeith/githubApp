@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github/static/css/main.d2da02aa.css",
+    "main.js": "/github/static/js/main.727ae6cc.js",
+    "static/media/loading.gif": "/github/static/media/loading.fd7b79c4157e9d143027.gif",
+    "static/media/lost.png": "/github/static/media/lost.e704e2d9cb6f7b9db349.png",
+    "index.html": "/github/index.html",
+    "main.d2da02aa.css.map": "/github/static/css/main.d2da02aa.css.map",
+    "main.727ae6cc.js.map": "/github/static/js/main.727ae6cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2da02aa.css",
+    "static/js/main.727ae6cc.js"
+  ]
+}
