@@ -18,6 +18,7 @@ const About = () => {
       </p>
       <p>Data is collected from the Github API using asynchronous queries.</p>
       <p>Please use the above menu to navigate the app.</p>
+      <p>Say something here</p>
     </div>
   );
 };
