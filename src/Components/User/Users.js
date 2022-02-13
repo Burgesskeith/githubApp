@@ -5,18 +5,12 @@ import GithubContext from "../../Context/Github/GithubContext";
 
 const Users = () => {
   const { loading, users } = useContext(GithubContext);
-  const userStyle = {
-    display: "grid",
-    gridTemplateColumns: "repeat(3,1fr)",
-    gridGap: "1rem",
-    marginBottom: "50px"
-  };
 
   return loading ? (
     <Spinner />
   ) : (
     <Fragment>
-      <div style={userStyle}>
+      <div className = "userListCols">
         {users.map((user) => (
           <UserItem user={user} key={user.id} />
         ))}

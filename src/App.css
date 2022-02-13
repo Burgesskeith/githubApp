@@ -19,7 +19,6 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
-  
 }
 a {
   color: var(--primary-color);
@@ -395,12 +394,30 @@ table th {
   padding: 1.6rem 2rem;
 }
 
-.four{
+.four {
   margin: 60px auto;
   text-align: center;
   font-size: 1.5rem;
 }
-.lostImg{
+.lostImg {
   width: 200px;
   margin-top: 50px;
+}
+
+.userListCols {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1rem;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .userListCols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .userListCols {
+    grid-template-columns: 1fr;
+  }
 }
