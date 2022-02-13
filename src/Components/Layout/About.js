@@ -6,11 +6,11 @@ const About = () => {
       <h1>About this Application</h1>
       <p>
         The purpose of this application is to demonstrate the use of React and
-        manging React state using Context API
+        manging React state using Context API.
       </p>
       <p>
         It's also uses captures data from external sources via publicly
-        available API's.
+        available API's; i.e. namely github users.
       </p>
       <p>
         Github offers access to user information via their API's so this is a
@@ -18,7 +18,7 @@ const About = () => {
       </p>
       <p>Data is collected from the Github API using asynchronous queries.</p>
       <p>Please use the above menu to navigate the app.</p>
-      <p>Say something here</p>
+      <p>I hope you enjoy using this application.</p>
     </div>
   );
 };

@@ -17,6 +17,7 @@ const Search = () => {
       setAlert("danger", "Enter a valid search String");
     } else {
       searchUsers(text);
+      setText("");
     }
   };
   return (
